@@ -30,8 +30,42 @@ nav ul {
 }
 
 
+
+
+
+
+
 .card {
    width: 450px;
    overflow: hidden;
 }
 
+.card img{
+    height: 430px;
+}
+
+
+.stack-icons p {
+
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    height: 450px;
+} 
+.stack-icons p img {
+
+    padding: 9px;
+}
+    
+.stack-icons1 p {
+
+display: flex;
+flex-direction: column;
+padding: 8px;
+height: 450px;
+} 
+
+.stack-icons1 p img {
+
+    padding: 9px;
+}
