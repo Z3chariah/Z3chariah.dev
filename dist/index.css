@@ -26,7 +26,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 
@@ -35,7 +35,7 @@ nav ul {
 
 
 
-.card {
+.card{
    width: 450px;
    overflow: hidden;
 }
@@ -45,7 +45,7 @@ nav ul {
 }
 
 
-.stack-icons p {
+.stack-icons p{
 
     display: flex;
     flex-direction: column;
@@ -68,4 +68,19 @@ height: 450px;
 .stack-icons1 p img {
 
     padding: 9px;
+}
+
+
+
+
+
+.experiences
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#Heading1{
+display: flex;
+justify-content: center; 
 }
