@@ -1,14 +1,14 @@
 body{
     margin: 0%;
-    background: slategray;
+    background: slategrey;
 }
 
 
 header{
     display: flex;
-    justify-content: center;
-    background: slategray;
-    box-shadow: 3px 5px 10px;
+    justify-content: flex-end;
+    padding-right: 50px;
+
 }
 
 nav ul {
@@ -26,52 +26,31 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 60vh;
 }
-
-
-
-
-
-
-
 .card{
-   width: 450px;
+   display: flex;
+   align-items: center;
+   width: 1600px;
    overflow: hidden;
 }
 
+.card-content{
+margin-left: 75px;
+}
+
+
+
+
 .card img{
-    height: 430px;
+    height: 375px;
 }
 
 
-.stack-icons p{
-
-    display: flex;
-    flex-direction: column;
-    padding: 8px;
-    height: 450px;
-} 
-.stack-icons p img {
-
-    padding: 9px;
-}
-    
-.stack-icons1 p {
-
-display: flex;
-flex-direction: column;
-padding: 8px;
-height: 450px;
-} 
-
-.stack-icons1 p img {
-
-    padding: 9px;
-}
-
-
-
+.card-e{
+    width: 450px;
+    overflow: hidden;
+ }
 
 
 .experiences
