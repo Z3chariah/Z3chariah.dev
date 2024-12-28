@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: slategrey;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 525px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, black, slategrey);
+    box-shadow: 15px 8px 20px;
+    
+}
+
+.card-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-container > a 
+{
+    text-decoration: none;
+    color: black;
+}
