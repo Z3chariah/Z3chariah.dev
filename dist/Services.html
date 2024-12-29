@@ -10,23 +10,28 @@
 <body>
 
      <header>
-        <nav>
+     
 
        <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="btn">Products</a></li>
+            <li><a href="Services.html" onclick="display_projects(4)">Services</a></li>
             <li><a href="btn">Contact</a></li>
        </ul>
-        </nav>
+ 
+       <ul>
+        <a href="https://github.com/Z3chariah">  <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"/></a>
+        <a href="https://www.linkedin.com/in/elijah-powell-6571282a7/"><img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"/></a>
+      </ul>
+
+
     </header>
 
 <div class="card-container">
 
 
-<a href="">
+<button id="button1" onclick="display_projects(1)">
 <div class="card">
-    <img src="images/Portfolio_pfp.jpg" alt="Instructional Design; Student geared websites for clubs, new initiaves, a blog, and more. Every websites is custom built to ensure all websites are fully reflective of the students personal brand" style="height: 450px;">
+    <img src="images/ec4909ee88dd497c9a2e34fb19203125.jpg" alt="Instructional Design; Student geared websites for clubs, new initiaves, a blog, and more. Every websites is custom built to ensure all websites are fully reflective of the students personal brand" style="height: 450px; width: 525px;">
     <div class="card-content">
         <h3>Marketing Campaigns</h3>
         <p>From Scripting Workshops viewed by thousands of people to writing concise Instagram with captions that optimize engagement.
@@ -35,11 +40,11 @@
         </p>
     </div>
 </div>
-</a>
+</button>
 
-<a href="">
+<button id="button2" onclick="display_projects(2)">
 <div class="card">
-    <img src="images/Portfolio_pfp.jpg" alt="Instructional Design; Student geared websites for clubs, new initiaves, a blog, and more. Every websites is custom built to ensure all websites are fully reflective of the students personal brand" style="height: 450px;">
+    <img src="images/Mobile Application Play Chess UI_UX interface Grey Color.jpg" alt="Instructional Design; Student geared websites for clubs, new initiaves, a blog, and more. Every websites is custom built to ensure all websites are fully reflective of the students personal brand" style="height: 450px;">
     <div class="card-content">
         <h3>Personal Websites</h3>
         <p>For the last two years, I have been helping Students flesh out their ideas for Clubs, Non-profits, and even their own startups and turn them into sleek, aesthetic, and Unique websites, that display not only their goals but their values.
@@ -48,11 +53,11 @@
         </p>
     </div>
 </div>
-</a>
+</button>
 
-<a href="">
+<button id="button3"  onclick="display_projects(3)">
 <div class="card">
-    <img src="images/Portfolio_pfp.jpg" alt="Instructional Design; Student geared websites for clubs, new initiaves, a blog, and more. Every websites is custom built to ensure all websites are fully reflective of the students personal brand" style="height: 450px;">
+    <img src="images/c3baf135f0ce7a1f2798ff14d081b6f8.jpg" alt="Instructional Design; Student geared websites for clubs, new initiaves, a blog, and more. Every websites is custom built to ensure all websites are fully reflective of the students personal brand" style="height: 450px; width: 525px; image-resolution: 1440px;">
     <div class="card-content">
         <h3>Notion Templates</h3>
         <p>For the past year I have crafted CRM'S, Team Collaboration Workspaces, OKR dashboards, Habit tracking Systems, and more. Used by med students, dental students, engineering students, and professionals.
@@ -61,6 +66,9 @@
         </p>
     </div>
 </div>
+</button>
+</button>
+
 </a>
 
 
@@ -73,9 +81,11 @@
 
 
 
-
-
-
 </div>
+
+<script src="/src/index.js">
+  
+</script>
+
 </body>
 </html>

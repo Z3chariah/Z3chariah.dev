@@ -9,17 +9,22 @@ body{
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-between;
     padding: 30px;
 
 }
 
-nav ul {
+ ul {
     display: flex;
-}nav ul li{
+}
+
+ul li{
     padding: 12px;
     list-style: none;
-}nav ul li a{
+}
+
+li a{
     text-decoration: none;
     color: black;
 }
@@ -29,7 +34,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 50vh;
 }
 .card{
    display: flex;

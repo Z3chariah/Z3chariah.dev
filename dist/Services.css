@@ -7,21 +7,24 @@ body{
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-between;
     padding: 30px;
+
 }
 
-ul {
+ ul {
     display: flex;
+}
+
+ul li{
+    padding: 12px;
     list-style: none;
 }
 
-
-
-li a {
-    color: black;
+li a{
     text-decoration: none;
-    padding: 20px;
+    color: black;
 }
 
 .card-container{
@@ -43,6 +46,17 @@ li a {
     
 }
 
+
+button{
+    border-radius: 30px;
+    padding: 0%;
+}
+
+button p
+{
+    padding-left: 12px;
+    padding-right: 12px;
+}
 .card-content{
     margin-left: 20px;
     margin-right: 20px;
